@@ -1,1 +1,0 @@
-clean_nh_monthly_sic_19782024.nc filter=lfs diff=lfs merge=lfs -text
