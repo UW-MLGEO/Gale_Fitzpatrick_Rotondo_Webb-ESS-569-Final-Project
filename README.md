@@ -11,7 +11,29 @@ The data sources for this project include:
 
 Our data is geospatial data in netcdf format. It contains 45 September's worth of data from 50N of SST and of thte total arctic SIC on the same grid. 
 
-NEED TO ADD: Describe the data modalities, data formats. If applicable, describe large data archives that can be used for model inference, their size.
+**Data Modalities and Formats**
+This project utilizes the following data modalities and formats for model inference in sea ice prediction:
+
+_Data Modalities_
+
+Satellite Observations:
+Type: Sea ice concentration and related variables.
+Source: National Snow and Ice Data Center (NSIDC).
+Reanalysis Data:
+Type: Sea Surface Temperature (SST) data.
+Source: ERA5 reanalysis datasets from the European Centre for Medium-Range Weather Forecasts (ECMWF).
+Data Formats
+
+NetCDF (.nc): The primary format used for storing multidimensional scientific data, applicable to both satellite and reanalysis datasets.
+
+National Snow and Ice Data Center (NSIDC):
+Description: Offers extensive datasets related to snow and ice, including daily sea ice concentration and extent from satellite observations.
+Size: Several terabytes of data spanning multiple decades.
+Access: NSIDC Data Search: https://nsidc.org/data/g02202/versions/4
+ERA5 Reanalysis:
+Description: Provides detailed and comprehensive reanalysis data, including Sea Surface Temperature and other climate variables.
+Size: Multiple petabytes of climate data, available on a global scale with hourly resolution.
+Access: ERA5 Data Access: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=overview
 
 ### Project Objectives
 This project aims to:
