@@ -23,7 +23,7 @@ This project aims to:
 A .yml environment file has been uploaded to the main repository directory with environment name 'pinn_sea_ice'. This file serves as the basis for setting up the Python environment necessary to run the Physically Informed Neural Network (PINN) desirable as part of this project.
 
 ### Script and Notebook Descriptions
-_Scripts_
+_Notebooks_
 
 `get_sea_ice_data.ipynb`: This notebook contains the code to download, combine, and clean up the NSIDC SIC data.
 
@@ -32,10 +32,6 @@ _Scripts_
 `get_sst_data.ipynb`: is designed for downloading and preprocessing sea surface temperature (SST) data from the ERA5 reanalysis dataset. It outlines steps to retrieve the data, clean it, and structure it for use in subsequent analyses. The notebook ensures that the SST data is ready for integration with other datasets, such as sea ice concentration, for modeling purposes.
 
 `prepare_AI_ready_sea_ice_data.ipynb`: focuses on transforming and preparing the cleaned sea ice concentration data for use in artificial intelligence applications. It involves reshaping the dataset, normalizing values, and possibly splitting the data into training and testing sets. The goal is to ensure the data is structured appropriately for training machine learning models, enhancing the effectiveness of the predictive algorithms.
-
-For more details, you can view the notebook [here](https://github.com/UW-MLGEO/MLGEO2024_SeaIcePrediction/blob/main/notebooks/clean_sea_ice_data.ipynb).
-
-_Notebooks_
 
 ### Difficulties/DISCLAIMER
 
