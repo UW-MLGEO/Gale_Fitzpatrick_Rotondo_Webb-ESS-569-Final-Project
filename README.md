@@ -9,6 +9,8 @@ The data sources for this project include:
 * Northern hemisphere (NH) sea ice concentration (SIC) data from the National Snow and Ice Data Center (NSIDC)
 * Sea surface temperature (SST) data from ERA5, a reanalysis dataset produced by European Centre for Medium-Range Weather Forecasts (ECMWF)
 
+Our data is geospatial data in netcdf format. It contains 45 September's worth of data from 50N of SST and of thte total arctic SIC on the same grid. 
+
 NEED TO ADD: Describe the data modalities, data formats. If applicable, describe large data archives that can be used for model inference, their size.
 
 ### Project Objectives
