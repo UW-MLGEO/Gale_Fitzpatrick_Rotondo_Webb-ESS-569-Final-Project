@@ -18,7 +18,7 @@ This project aims to:
 * Compare the predicted SIC output from the PINN to observed values as ground truth and model validation
 
 ### Instructions for setting up the environment
-A .yml environment file will be uploaded alongside the PINN script later.
+A .yml environment file has been uploaded to the main repository directory with environment name 'pinn_sea_ice'. This file serves as the basis for setting up the Python environment necessary to run the Physically Informed Neural Network (PINN) desirable as part of this project.
 
 ### Script and Notebook Descriptions
 _Scripts_
