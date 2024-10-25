@@ -2,7 +2,7 @@
 
 ESS 569 Final Project
 
-Sky Gale, Liam Kirkpatrick, Joey Rotondo, and Geraint Webb
+Sky Gale, Joey Rotondo, and Geraint Webb
 
 ### Data Sources
 The data sources for this project include:
