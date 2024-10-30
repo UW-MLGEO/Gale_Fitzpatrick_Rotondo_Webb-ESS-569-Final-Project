@@ -2,7 +2,7 @@
 
 ESS 569 Final Project
 
-Sky Gale, Joey Rotondo, and Geraint Webb
+Authors: Sky Gale, Joey Rotondo, and Geraint Webb
 
 ### Data Sources
 The data sources for this project include **Northern hemisphere (NH) sea ice concentration (SIC)** and **Sea surface temperature (SST)** data from ERA5, a reanalysis dataset produced by European Centre for Medium-Range Weather Forecasts (ECMWF).
