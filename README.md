@@ -35,6 +35,16 @@ Data Access: DOI - https://doi.org/10.24381/cds.adbb2d47, URL - https://cds.clim
 
 ### Instructions for setting up the environment
 A .yml environment file has been uploaded to the main repository directory with environment name 'pinn_sea_ice'. This file serves as the basis for setting up the Python environment necessary to run the Physically Informed Neural Network (PINN) desirable as part of this project.
+ 
+Make sure you are in the repository directory where `environment.yml` is saved (home directory of your git clone). Then, open your terminal and run the following commands:
+
+   ```bash
+   # Create the Conda environment from the YAML file
+   conda env create -f environment.yml
+
+   # Activate the environment
+   conda activate pinn_sea_ice
+  ```
 
 ### Script and Notebook Descriptions
 _Notebooks_
