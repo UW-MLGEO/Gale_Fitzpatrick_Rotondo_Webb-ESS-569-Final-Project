@@ -31,10 +31,11 @@ NetCDF (.nc): The primary format used for storing multidimensional scientific da
 ERA5 Reanalysis:
 Description: Provides detailed and comprehensive reanalysis data, including Sea Surface Temperature and other climate variables.
 Size: Multiple petabytes of climate data, available on a global scale with hourly resolution.
-Data Access: DOI - https://doi.org/10.24381/cds.adbb2d47, URL - https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=overview
+Data Access: [DOI](https://doi.org/10.24381/cds.adbb2d47)
+             [URL](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=overview)
 
 ### Instructions for setting up the environment
-A .yml environment file has been uploaded to the main repository directory with environment name 'pinn_sea_ice'. This file serves as the basis for setting up the Python environment necessary to run the Physically Informed Neural Network (PINN) desirable as part of this project.
+A .yml environment file has been uploaded to the main repository directory with environment name `pinn_sea_ice`. This file serves as the basis for setting up the Python environment necessary to run the Physically Informed Neural Network (PINN) desirable as part of this project.
  
 Make sure you are in the repository directory where `environment.yml` is saved (home directory of your git clone). Then, open your terminal and run the following commands:
 
