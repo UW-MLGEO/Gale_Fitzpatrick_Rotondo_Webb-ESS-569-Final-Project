@@ -4,6 +4,12 @@ ESS 569 Final Project
 
 Authors: Sky Gale, Joey Rotondo, and Geraint Webb
 
+### Project Objectives
+This project aims to:
+* Produce a working physics-informed neural network (PINN) using only previous observational data of SIC and SST to predict present day SIC
+* Demonstrate that PINNs can be used as simple climate emulators
+* Compare the predicted SIC output from the PINN to observed values as ground truth and model validation
+
 ### Data Sources
 The data sources for this project include **Northern hemisphere (NH) sea ice concentration (SIC)** and **Sea surface temperature (SST)** data from ERA5, a reanalysis dataset produced by European Centre for Medium-Range Weather Forecasts (ECMWF).
 
@@ -26,12 +32,6 @@ ERA5 Reanalysis:
 Description: Provides detailed and comprehensive reanalysis data, including Sea Surface Temperature and other climate variables.
 Size: Multiple petabytes of climate data, available on a global scale with hourly resolution.
 Data Access: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=overview
-
-### Project Objectives
-This project aims to:
-* Produce a working physics-informed neural network (PINN) using only previous observational data of SIC and SST to predict present day SIC
-* Demonstrate that PINNs can be used as simple climate emulators
-* Compare the predicted SIC output from the PINN to observed values as ground truth and model validation
 
 ### Instructions for setting up the environment
 A .yml environment file has been uploaded to the main repository directory with environment name 'pinn_sea_ice'. This file serves as the basis for setting up the Python environment necessary to run the Physically Informed Neural Network (PINN) desirable as part of this project.
