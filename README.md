@@ -58,4 +58,4 @@ Note: This notebook performs the fetching, cleaning, and preparing of the SIC an
 
 ### Difficulties/DISCLAIMER
 
-We ran into several difficulties surrounding data file size being too large. To manage this, we moved our data to GitHub's Large File Storage (LFS) system. This still was not enough and eventually we transitioned our data into a **google drive**: https://drive.google.com/drive/folders/1xMseLz6dco2NJCxW-Hg7OOLT4UGA3CkT?usp=sharing.
+We ran into several difficulties surrounding data file size being too large. To manage this, we moved our data to GitHub's Large File Storage (LFS) system. This still was not enough and eventually we transitioned our data into a **[Google Drive]**(https://drive.google.com/drive/folders/1xMseLz6dco2NJCxW-Hg7OOLT4UGA3CkT?usp=sharing).
