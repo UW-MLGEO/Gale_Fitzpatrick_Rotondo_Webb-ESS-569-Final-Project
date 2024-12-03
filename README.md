@@ -36,6 +36,11 @@ Data Access: [DOI](https://doi.org/10.24381/cds.adbb2d47)
 
 ### Instructions for setting up the environment
 A .yml environment file has been uploaded to the main repository directory with environment name `pinn_sea_ice`. This file serves as the basis for setting up the Python environment necessary to run the Physically Informed Neural Network (PINN) desirable as part of this project.
+
+Notes:
+* If you are in a remote login environment, you may need to run `module load python` first to initialize an envionrment with `conda`.
+* If not already installed, in order to add to the kernel list you may need to run `conda install -c conda-forge ipykernel` to install `ipykernel`.
+* If you run into troubles installing the `physics-informed-neural-networks` package, run `pip install --no-cache-dir physics-informed-neural-networks` to install it.
  
 Make sure you are in the repository directory where `environment.yml` is saved (home directory of your git clone). Then, open your terminal and run the following commands:
 
@@ -45,6 +50,13 @@ Make sure you are in the repository directory where `environment.yml` is saved (
 
    # Activate the environment
    conda activate pinn_sea_ice
+   
+   # Install ipykernel in the environment
+   conda install -n pinn_sea_ice iykernel
+   
+   # Add the environment to Jupyter
+   python -m ipykernel install --user --name=pinn_sea_ice --display-name "pinn_sea_ice"
+   
   ```
 
 ### Script and Notebook Descriptions

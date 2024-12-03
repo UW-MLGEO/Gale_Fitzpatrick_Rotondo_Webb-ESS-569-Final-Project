@@ -1,0 +1,24 @@
+name: pinn_sea_ice
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8  # Or your preferred Python version
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - tensorflow=2.7  # Adjust this based on your preferred version
+  - keras
+  - pyproj
+  - xarray
+  - netcdf4
+  - scikit-learn
+  - jupyterlab
+  - tqdm
+  - seaborn
+  - cartopy
+  - tabulate
+  - pip
+  - pip:
+      - physics-informed-neural-networks  # Ensure this package is available

@@ -3,13 +3,13 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8  # or your preferred Python version
+  - python=3.8  # Or your preferred Python version
   - numpy
   - scipy
   - matplotlib
   - pandas
   - tensorflow=2.7  # Adjust this based on your preferred version
-  - keras
+  - keras>=2.4.0
   - pyproj
   - xarray
   - netcdf4
@@ -17,6 +17,7 @@ dependencies:
   - jupyterlab
   - tqdm
   - seaborn
+  - tabulate
   - pip
   - pip:
       - physics-informed-neural-networks  # Ensure this package is available
